@@ -236,14 +236,14 @@ install_hysteria() {
     install -d "$JSON_PATH"
     cat << EOF >> "${JSON_PATH}/config.json"
 {
-    "listen": ":36712",
+    "listen": ":9888",
     "acme": {
         "domains": [
-            "your.domain.com"
+            "hy.xhuman.ml"
         ],
         "email": "hacker@gmail.com"
     },
-    "obfs": "fuck me till the daylight",
+    "obfs": "g6813",
     "up_mbps": 100,
     "down_mbps": 100
 }
